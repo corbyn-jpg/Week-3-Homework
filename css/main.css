@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@font-face{
+    font-family: Horizon;
+    src: url(../assets/Horizon.ttf);
+}
+
+h1{
+    font-family: Horizon;
+}
+
+.nav{
+    grid-area: navbar;
+	display: grid;
+	justify-content: space-evenly;
+	align-items: center;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+}
